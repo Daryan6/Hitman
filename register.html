@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HITMAN</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="todolist.html">To Do List</a>
+  <a href="contact.html">Contact me</a>
+  <div class="dropdown">
+    <button class="dropbtn">Join me 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="register.html">Registeration</a>
+      <a href="Myfavideos.html"> My Favorite Videos!</a>
+      <a href="myfavgame.html">My Favorite Game!</a>
+    </div>
+  </div> 
+</div>
+
+<div class="container">
+  <form action="action_page.php">
+
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email</label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Iraq</option>
+      <option value="canada">Turky</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+
+  </form>
+</div>
+
+
+</body>
+</html>
